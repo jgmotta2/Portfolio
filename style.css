@@ -241,3 +241,12 @@ main {
 .iconDescription {
     margin-top: -4rem;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    font-size: 40px;
+    height: 100%;
+}
