@@ -38,6 +38,7 @@ header {
     top: 0;
     z-index: 99999;
     background-color: #000000;
+    opacity: 0;
 }
 
 nav {
@@ -79,6 +80,7 @@ main {
     align-items: center;
     max-width: 60rem;
     gap: 1rem;
+    opacity: 0;
 }
 
 .heroName {
@@ -106,7 +108,7 @@ main {
     text-align: center;
     max-width: 52rem;
     margin: auto;
-    padding-top: 5rem;
+    padding-top: 7rem;
     font-size: 40px;
 }
 
@@ -151,7 +153,7 @@ main {
     gap: 5rem;
     height: 100%;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 7rem;
     font-size: 40px;
 }
 
@@ -173,8 +175,14 @@ main {
 }
 
 .card a {
-    color: black;
+    color: #1B1B1B;
     text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    filter: brightness(1.5);
+    cursor: pointer;
 }
 
 .image {
@@ -192,9 +200,9 @@ main {
     width: 9rem;
     font-size: 20px;
     text-align: center;
-    color: black;
+    color: #f7dca5;
     border-radius: 15px;
-    background-image: linear-gradient(180deg, #fef9f0, #e2c89d);
+    background-color: #1B1B1B;
 }
 
 .tagsAndDescriptionContainer {
@@ -204,7 +212,7 @@ main {
 }
 
 .projectDescription {
-    color: #000000;
+    color: #1B1B1B;
     font-size: 20px;
 }
 
