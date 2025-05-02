@@ -34,23 +34,27 @@ header {
     justify-content: space-between;
     padding: 20px;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: #000000;
 }
 
 nav {
     display: flex;
-    gap: 15rem;
+    gap: 10rem;
 }
 
 
 #logo {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .btn {
     color: #c69749;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     transition: color 0.3s ease;
 }
 
@@ -61,7 +65,7 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    gap: 25rem;
+    gap: 20rem;
     height: 100%;
 
 }
@@ -211,6 +215,7 @@ main {
     align-items: center;
     font-size: 40px;
     height: 100%;
+    padding-top: 10rem;
 }
 
 .iconsContainer {
@@ -248,5 +253,14 @@ main {
     gap: 2rem;
     align-items: center;
     font-size: 40px;
-    height: 100%;
+    padding-bottom: 5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: -15rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
